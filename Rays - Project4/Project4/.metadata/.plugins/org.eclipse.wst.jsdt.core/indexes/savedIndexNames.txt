@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\Rays - Project4\Project4\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+701951272.index
+2034637405.index
+1551311642.index
+3530611609.index
+418040021.index
+4047871079.index

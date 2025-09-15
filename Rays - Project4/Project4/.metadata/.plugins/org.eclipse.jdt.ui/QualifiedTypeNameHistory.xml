@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.CourseBean"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Model.SubjectModel"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.SubjectBean"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Exception.ApplicationException"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Model.UserModel"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.CollegeBean"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Exception.DuplicateRecordException"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Util.DataValidator"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Model.CollegeModel"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Util.ServletUtility"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Model.TimeTableModel"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Util.DataUtility"/>
+    <fullyQualifiedTypeName name="com.rays.pro4.Bean.RoleBean"/>
+</qualifiedTypeNameHistroy>

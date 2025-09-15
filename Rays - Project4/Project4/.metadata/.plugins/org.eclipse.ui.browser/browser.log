@@ -1,0 +1,285 @@
+
+Jun 16, 2025 11:22:08.81 NEW SESSION
+Jun 16, 2025 11:22:08.81 [20788:21324:0616/112208.818:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Jun 16, 2025 11:22:08.81 [20788:21324:0616/112208.818:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Jun 16, 2025 11:22:09.02 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Jun 16, 2025 11:22:09.02 I0000 00:00:1750053129.036284   10856 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Jun 16, 2025 11:22:09.27 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 16, 2025 11:22:09.28 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Jun 16, 2025 11:22:36.51 [20788:21324:0616/112236.511:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Jun 16, 2025 11:22:36.64 [20788:21324:0616/112236.644:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Jun 16, 2025 11:23:17.63 [20788:21324:0616/112317.634:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Jun 16, 2025 11:23:24.99 [20788:21324:0616/112324.990:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+
+Jun 20, 2025 23:10:12.60 NEW SESSION
+Jun 20, 2025 23:10:12.60 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Jun 20, 2025 23:10:12.60 I0000 00:00:1750441212.597645   10780 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Jun 20, 2025 23:10:13.05 [18820:11620:0620/231013.056:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 20, 2025 23:10:13.30 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 20, 2025 23:10:13.31 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Jun 20, 2025 23:10:40.37 [18820:11620:0620/231040.375:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 20, 2025 23:11:29.85 [18820:11620:0620/231129.852:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Jun 21, 2025 12:03:39.46 NEW SESSION
+Jun 21, 2025 12:03:39.46 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Jun 21, 2025 12:03:39.46 I0000 00:00:1750487619.461853    9352 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Jun 21, 2025 12:03:39.52 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 21, 2025 12:03:39.52 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Jun 21, 2025 12:03:39.74 [16632:14780:0621/120339.743:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:04:03.16 [16632:4536:0621/120403.161:ERROR:components\device_event_log\device_event_log_impl.cc:202] [12:04:03.161] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 21, 2025 12:04:03.17 [16632:4536:0621/120403.174:ERROR:components\device_event_log\device_event_log_impl.cc:202] [12:04:03.174] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jun 21, 2025 12:04:04.14 [16632:14780:0621/120404.132:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:04:58.97 [16632:14780:0621/120458.978:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:06:48.86 [16632:14780:0621/120648.863:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:09:30.84 [16632:14780:0621/120930.841:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:17:12.07 [16632:14780:0621/121712.076:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:17:29.48 [16632:4536:0621/121729.485:ERROR:chrome\browser\ui\webui\new_tab_page\new_tab_page_handler.cc:1353] NewTabPage loaded into a non-browser-tab context
+Jun 21, 2025 12:19:04.90 [16632:4536:0621/121904.907:ERROR:chrome\browser\ui\webui\new_tab_page\new_tab_page_handler.cc:1353] NewTabPage loaded into a non-browser-tab context
+Jun 21, 2025 12:20:31.47 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Jun 21, 2025 12:20:31.48 I0000 00:00:1750488631.480350   15508 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Jun 21, 2025 12:20:31.54 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 21, 2025 12:20:31.54 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Jun 21, 2025 12:20:31.75 [5284:18424:0621/122031.753:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:20:55.83 [5284:18424:0621/122055.839:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:21:55.52 [5284:18424:0621/122155.529:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:23:24.77 [5284:18424:0621/122324.772:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:25:38.10 [5284:20836:0621/122538.107:ERROR:chrome\browser\ui\webui\new_tab_page\new_tab_page_handler.cc:1353] NewTabPage loaded into a non-browser-tab context
+Jun 21, 2025 12:26:39.50 [5284:18424:0621/122639.502:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:30:49.51 [5284:20836:0621/123049.517:ERROR:chrome\browser\ui\webui\new_tab_page\new_tab_page_handler.cc:1353] NewTabPage loaded into a non-browser-tab context
+Jun 21, 2025 12:32:47.05 [5284:18424:0621/123247.050:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 21, 2025 12:55:33.62 [5284:18424:0621/125533.622:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Jun 21, 2025 12:57:25.65 [5284:20836:0621/125725.655:ERROR:chrome\browser\ui\webui\new_tab_page\new_tab_page_handler.cc:1353] NewTabPage loaded into a non-browser-tab context
+
+Jun 26, 2025 19:02:58.53 NEW SESSION
+Jun 26, 2025 19:02:58.53 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Jun 26, 2025 19:02:58.53 I0000 00:00:1750944778.533242   10928 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Jun 26, 2025 19:02:58.74 [7724:17100:0626/190258.747:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 26, 2025 19:02:58.89 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun 26, 2025 19:02:58.89 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Jun 26, 2025 19:03:28.58 [7724:17100:0626/190328.585:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 26, 2025 19:04:10.44 [7724:13120:0626/190410.449:ERROR:components\device_event_log\device_event_log_impl.cc:202] [19:04:10.440] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 26, 2025 19:04:22.25 [7724:17100:0626/190422.242:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 26, 2025 19:06:19.21 [7724:17100:0626/190619.212:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 26, 2025 19:09:00.56 [7724:17100:0626/190900.563:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 26, 2025 19:16:55.49 [7724:17100:0626/191655.495:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jun 26, 2025 20:49:13.03 [7724:17100:0626/204913.035:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Jun 26, 2025 20:49:15.06 [7724:17100:0626/204915.065:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -106
+Jun 26, 2025 20:49:17.60 [7724:13120:0626/204917.601:ERROR:components\device_event_log\device_event_log_impl.cc:202] [20:49:17.601] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jun 26, 2025 20:49:20.42 [7724:13120:0626/204920.425:ERROR:chrome\browser\ui\webui\new_tab_page\new_tab_page_handler.cc:1353] NewTabPage loaded into a non-browser-tab context
+
+Jul 31, 2025 11:42:22.76 NEW SESSION
+Jul 31, 2025 11:42:22.76 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Jul 31, 2025 11:42:22.77 I0000 00:00:1753942342.767572   19296 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Jul 31, 2025 11:42:22.88 [21060:19496:0731/114222.882:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jul 31, 2025 11:42:23.50 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jul 31, 2025 11:42:23.51 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Jul 31, 2025 11:42:43.82 [21060:19496:0731/114243.820:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jul 31, 2025 11:43:41.61 [21060:19496:0731/114341.611:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jul 31, 2025 11:45:05.22 [21060:19496:0731/114505.222:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Jul 31, 2025 11:48:27.77 [21060:19496:0731/114827.774:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Aug 01, 2025 11:44:58.36 NEW SESSION
+Aug 01, 2025 11:44:58.37 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Aug 01, 2025 11:44:58.37 I0000 00:00:1754028898.364622   23484 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Aug 01, 2025 11:44:58.42 [12444:1952:0801/114458.422:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 01, 2025 11:44:58.55 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 01, 2025 11:44:58.55 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Aug 01, 2025 11:44:58.95 [12444:1952:0801/114458.957:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 01, 2025 11:45:25.38 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Aug 01, 2025 11:45:25.39 I0000 00:00:1754028925.389692   21736 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Aug 01, 2025 11:45:25.54 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 01, 2025 11:45:25.54 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Aug 01, 2025 11:45:25.81 [26488:8352:0801/114525.814:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 01, 2025 11:45:49.07 [26488:8352:0801/114549.070:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 01, 2025 11:46:32.62 [26488:8352:0801/114632.619:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 01, 2025 11:48:17.14 [26488:8352:0801/114817.143:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 01, 2025 11:51:40.63 [26488:8352:0801/115140.634:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 01, 2025 11:59:24.32 [26488:8352:0801/115924.324:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 01, 2025 12:07:07.62 [26488:8352:0801/120707.624:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+
+Aug 02, 2025 11:38:05.40 NEW SESSION
+Aug 02, 2025 11:38:05.40 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Aug 02, 2025 11:38:05.41 I0000 00:00:1754114885.412526   26636 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Aug 02, 2025 11:38:05.48 [5500:2528:0802/113805.481:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 02, 2025 11:38:05.57 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 02, 2025 11:38:05.57 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Aug 02, 2025 11:38:28.31 [5500:2528:0802/113828.318:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 02, 2025 11:39:15.86 [5500:2528:0802/113915.867:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 02, 2025 11:41:02.46 [5500:16912:0802/114102.465:ERROR:components\device_event_log\device_event_log_impl.cc:198] [11:41:02.462] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Aug 02, 2025 11:41:02.49 [5500:16912:0802/114102.493:ERROR:components\device_event_log\device_event_log_impl.cc:198] [11:41:02.491] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Aug 02, 2025 11:41:13.92 [5500:2528:0802/114113.917:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 02, 2025 11:45:11.69 [5500:2528:0802/114511.695:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 02, 2025 11:51:02.53 [5500:2528:0802/115102.534:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Aug 06, 2025 11:40:51.52 NEW SESSION
+Aug 06, 2025 11:40:51.52 [12876:25392:0806/114051.525:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 06, 2025 11:40:51.63 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Aug 06, 2025 11:40:51.63 I0000 00:00:1754460651.642299   24484 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Aug 06, 2025 11:40:51.73 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 06, 2025 11:40:51.74 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Aug 06, 2025 11:40:51.78 [12876:25392:0806/114051.788:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 06, 2025 11:41:12.45 [12876:25392:0806/114112.452:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 06, 2025 11:41:17.21 [12876:25392:0806/114117.215:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 06, 2025 11:42:09.55 [12876:25392:0806/114209.558:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 06, 2025 11:42:12.38 [12876:25392:0806/114212.388:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 06, 2025 11:43:45.35 [12876:25392:0806/114345.354:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 06, 2025 11:43:57.09 [12876:25392:0806/114357.090:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 06, 2025 11:47:10.75 [12876:25392:0806/114710.748:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 06, 2025 11:47:13.03 [12876:25392:0806/114713.037:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Aug 13, 2025 19:52:41.10 NEW SESSION
+Aug 13, 2025 19:52:41.10 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Aug 13, 2025 19:52:41.10 I0000 00:00:1755094961.104185   16680 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Aug 13, 2025 19:52:41.32 [15240:26852:0813/195241.324:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 13, 2025 19:52:41.35 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 13, 2025 19:52:41.35 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Aug 13, 2025 19:53:09.68 [15240:26852:0813/195309.685:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 13, 2025 19:53:51.05 [15240:26852:0813/195351.052:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 13, 2025 19:55:43.51 [15240:26852:0813/195543.515:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 13, 2025 19:58:26.32 [15240:26852:0813/195826.320:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Aug 14, 2025 19:08:44.05 NEW SESSION
+Aug 14, 2025 19:08:44.05 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 14, 2025 19:08:44.07 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Aug 14, 2025 19:08:44.13 [18220:2584:0814/190844.131:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 14, 2025 19:08:56.06 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Aug 14, 2025 19:08:56.06 I0000 00:00:1755178736.067862   16748 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Aug 14, 2025 19:08:56.24 [18220:2584:0814/190856.243:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 14, 2025 19:09:07.99 [18220:2584:0814/190907.990:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 14, 2025 19:09:22.14 [18220:2584:0814/190922.143:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+Aug 14, 2025 19:10:05.24 [18220:2584:0814/191005.241:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Aug 30, 2025 15:58:19.18 NEW SESSION
+Aug 30, 2025 15:58:19.18 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Aug 30, 2025 15:58:19.18 I0000 00:00:1756549699.182593   10300 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Aug 30, 2025 15:58:19.43 [16576:11416:0830/155819.438:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 15:58:19.84 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 30, 2025 15:58:19.84 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Aug 30, 2025 15:58:44.04 [16576:11416:0830/155844.046:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 15:59:35.69 [16576:11416:0830/155935.699:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Aug 30, 2025 17:56:11.39 NEW SESSION
+Aug 30, 2025 17:56:11.39 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Aug 30, 2025 17:56:11.39 I0000 00:00:1756556771.389300   17396 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Aug 30, 2025 17:56:11.62 [12332:4784:0830/175611.620:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 17:56:12.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 30, 2025 17:56:12.17 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Aug 30, 2025 17:56:38.66 [12332:4784:0830/175638.669:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 18:27:31.40 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Aug 30, 2025 18:27:31.40 I0000 00:00:1756558651.407689   11408 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Aug 30, 2025 18:27:31.51 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 30, 2025 18:27:31.52 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Aug 30, 2025 18:27:31.71 [2296:10032:0830/182731.715:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 18:27:52.39 [2296:10032:0830/182752.391:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 18:28:43.28 [2296:10032:0830/182843.288:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 18:30:24.66 [2296:10032:0830/183024.668:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 18:33:06.45 [2296:10032:0830/183306.454:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Aug 30, 2025 18:39:27.99 [2296:10032:0830/183927.997:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 02, 2025 24:02:00.48 NEW SESSION
+Sep 02, 2025 24:02:00.48 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Sep 02, 2025 24:02:00.48 I0000 00:00:1756751520.488766   17260 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Sep 02, 2025 24:02:00.57 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 02, 2025 24:02:00.58 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Sep 02, 2025 24:02:00.90 [6968:12424:0902/000200.907:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 24:02:25.40 [6968:12424:0902/000225.409:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 02, 2025 10:44:03.89 NEW SESSION
+Sep 02, 2025 10:44:03.89 [14712:18428:0902/104403.897:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 10:44:03.99 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Sep 02, 2025 10:44:03.99 I0000 00:00:1756790043.994111   10892 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Sep 02, 2025 10:44:04.31 [14712:18428:0902/104404.310:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 10:44:04.93 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 02, 2025 10:44:04.95 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Sep 02, 2025 10:44:27.12 [14712:18428:0902/104427.126:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 10:44:31.71 [14712:18428:0902/104431.714:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 10:45:24.30 [14712:18428:0902/104524.309:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 10:45:24.52 [14712:18428:0902/104524.527:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 10:46:58.07 [14712:18428:0902/104658.076:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 10:47:10.18 [14712:18428:0902/104710.182:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 10:48:05.82 [14712:18428:0902/104805.825:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 02, 2025 10:48:05.82 [14712:18428:0902/104805.825:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 02, 2025 10:56:43.80 [14712:18428:0902/105643.799:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+Sep 02, 2025 10:56:43.80 [14712:18428:0902/105643.799:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 02, 2025 10:56:43.80 [14712:18428:0902/105643.807:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 02, 2025 10:56:43.80 [14712:18428:0902/105643.808:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 02, 2025 19:14:50.33 [14712:18428:0902/191450.329:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 02, 2025 19:14:53.17 [14712:10920:0902/191453.177:ERROR:components\device_event_log\device_event_log_impl.cc:198] [19:14:53.177] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Sep 02, 2025 19:14:57.47 [14712:18428:0902/191457.471:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 02, 2025 19:14:57.48 [14712:18428:0902/191457.483:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 02, 2025 19:14:57.53 [14712:18428:0902/191457.529:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 02, 2025 19:14:57.56 [14712:14900:0902/191457.567:ERROR:components\sync\engine\get_updates_processor.cc:267] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Sep 02, 2025 19:15:01.48 [14712:18428:0902/191501.485:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 02, 2025 19:15:01.48 [14712:18428:0902/191501.485:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 02, 2025 19:15:04.38 [14712:18428:0902/191504.381:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 19:15:31.58 [14712:18428:0902/191531.587:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 02, 2025 19:15:31.58 [14712:18428:0902/191531.587:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 02, 2025 19:15:33.71 [14712:18428:0902/191533.710:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 02, 2025 19:16:25.00 [14712:18428:0902/191625.001:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 02, 2025 21:32:19.72 NEW SESSION
+Sep 02, 2025 21:32:19.72 [11016:20676:0902/213219.722:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 02, 2025 21:32:19.80 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Sep 02, 2025 21:32:19.80 I0000 00:00:1756828939.805273   11440 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Sep 02, 2025 21:32:20.04 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 02, 2025 21:32:20.06 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Sep 02, 2025 21:32:44.23 [11016:20676:0902/213244.238:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 02, 2025 21:33:35.54 [11016:20676:0902/213335.546:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 02, 2025 21:35:29.51 [11016:20676:0902/213529.512:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 02, 2025 21:38:29.83 [11016:20676:0902/213829.833:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+Sep 02, 2025 21:45:13.22 [11016:20676:0902/214513.220:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 02, 2025 23:30:46.93 NEW SESSION
+Sep 02, 2025 23:30:46.93 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Sep 02, 2025 23:30:46.93 I0000 00:00:1756836046.928120   17656 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+Sep 02, 2025 23:30:47.08 [1480:2080:0902/233047.089:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 23:30:47.14 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 02, 2025 23:30:47.14 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Sep 02, 2025 23:31:08.25 [1480:2080:0902/233108.258:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 23:32:04.93 [1480:2080:0902/233204.936:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 23:33:39.68 [1480:2080:0902/233339.688:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 23:36:59.97 [1480:2080:0902/233659.971:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 02, 2025 23:43:04.73 [1480:2080:0902/234304.737:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 03, 2025 13:54:27.58 NEW SESSION
+Sep 03, 2025 13:54:27.58 [14900:23212:0903/135427.578:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 03, 2025 13:54:27.59 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 03, 2025 13:54:53.17 [14900:23212:0903/135453.178:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 03, 2025 13:55:27.29 [6564:20560:0903/135527.295:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 03, 2025 13:55:27.35 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 03, 2025 14:02:28.33 [19208:5792:0903/140228.329:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 03, 2025 14:02:28.34 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 03, 2025 14:02:54.74 [19208:5792:0903/140254.749:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 03, 2025 14:03:45.63 [19208:5792:0903/140345.634:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED
+Sep 03, 2025 16:00:09.57 [19208:5792:0903/160009.555:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 03, 2025 16:00:09.75 [19208:5792:0903/160009.749:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 03, 2025 16:00:09.81 [19208:1632:0903/160009.815:ERROR:components\device_event_log\device_event_log_impl.cc:198] [16:00:09.814] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Sep 03, 2025 17:52:25.71 [19208:5792:0903/175225.715:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 03, 2025 17:52:26.05 [19208:5792:0903/175226.053:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+Sep 03, 2025 17:52:29.26 [19208:1632:0903/175229.266:ERROR:components\device_event_log\device_event_log_impl.cc:198] [17:52:29.267] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Sep 03, 2025 18:48:35.11 [19208:5792:0903/184835.112:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+Sep 03, 2025 19:01:08.64 [19208:5792:0903/190108.647:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+Sep 03, 2025 19:06:04.21 [19208:1632:0903/190604.212:ERROR:components\device_event_log\device_event_log_impl.cc:198] [19:06:04.182] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Sep 07, 2025 19:17:26.11 NEW SESSION
+Sep 07, 2025 19:17:26.11 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 07, 2025 19:17:26.45 [11676:9080:0907/191726.457:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 07, 2025 19:17:54.09 [11676:9080:0907/191754.097:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 12, 2025 24:00:05.59 NEW SESSION
+Sep 12, 2025 24:00:05.59 [3584:21564:0912/000005.590:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 12, 2025 24:00:05.82 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 12, 2025 24:00:30.83 [3584:21564:0912/000030.835:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+Sep 13, 2025 01:01:13.07 NEW SESSION
+Sep 13, 2025 01:01:13.07 [9588:3016:0913/010113.078:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:01:13.42 [9588:3016:0913/010113.424:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:01:13.53 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 13, 2025 01:01:41.42 [9588:3016:0913/010141.429:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:01:41.54 [9588:3016:0913/010141.540:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:02:30.08 [9588:3016:0913/010230.087:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:02:41.36 [9588:3016:0913/010241.361:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:27:13.89 Created TensorFlow Lite XNNPACK delegate for CPU.
+Sep 13, 2025 01:27:13.91 [18416:19564:0913/012713.911:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:27:35.69 [18416:19564:0913/012735.692:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Sep 13, 2025 01:28:32.90 [18416:19564:0913/012832.903:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT

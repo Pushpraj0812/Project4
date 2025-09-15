@@ -1,0 +1,242 @@
+package com.rays.pro4.controller;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+
+import com.rays.pro4.Bean.BaseBean;
+import com.rays.pro4.Bean.CollegeBean;
+import com.rays.pro4.Bean.CourseBean;
+import com.rays.pro4.Bean.FacultyBean;
+import com.rays.pro4.Bean.SubjectBean;
+import com.rays.pro4.Exception.ApplicationException;
+import com.rays.pro4.Exception.DuplicateRecordException;
+import com.rays.pro4.Model.CollegeModel;
+import com.rays.pro4.Model.CourseModel;
+import com.rays.pro4.Model.FacultyModel;
+import com.rays.pro4.Model.SubjectModel;
+import com.rays.pro4.Util.DataUtility;
+import com.rays.pro4.Util.DataValidator;
+import com.rays.pro4.Util.PropertyReader;
+import com.rays.pro4.Util.ServletUtility;
+
+/**
+ * The Class FacultyCtl manages Faculty operations such as preload, validate,
+ * populate, display (GET), and submit (POST).
+ * 
+ * @author Pushpraj Singh Kachhaway
+ */
+@WebServlet(name = "FacultyCtl", urlPatterns = { "/ctl/FacultyCtl" })
+public class FacultyCtl extends BaseCtl {
+
+	private static final long serialVersionUID = 1L;
+
+	private static Logger log = Logger.getLogger(FacultyCtl.class);
+
+	/**
+	 * Preloads lists of Courses, Colleges, and Subjects for Faculty form.
+	 *
+	 * @param request the {@link HttpServletRequest} object containing client
+	 *                request
+	 */
+	protected void preload(HttpServletRequest request) {
+		log.debug("FacultyCtl preload started");
+
+		CourseModel courseModel = new CourseModel();
+		CollegeModel collegeModel = new CollegeModel();
+		SubjectModel subjectModel = new SubjectModel();
+
+		try {
+			List courseList = courseModel.list();
+			List collegeList = collegeModel.list();
+			List subjectList = subjectModel.list();
+
+			request.setAttribute("courseList", courseList);
+			request.setAttribute("collegeList", collegeList);
+			request.setAttribute("subjectList", subjectList);
+
+		} catch (ApplicationException e) {
+			log.error(e);
+		}
+
+		log.debug("FacultyCtl preload End");
+	}
+
+	/**
+	 * Validates Faculty form input fields.
+	 *
+	 * @param request the {@link HttpServletRequest} object containing client
+	 *                request
+	 * @return true, if validation passes; false otherwise
+	 */
+	protected boolean validate(HttpServletRequest request) {
+		log.debug("FacultyCtl validate started");
+		boolean pass = true;
+
+		if (DataValidator.isNull(request.getParameter("firstName"))) {
+			request.setAttribute("firstName", PropertyReader.getValue("error.require", "First Name"));
+			pass = false;
+		}
+		if (DataValidator.isNull(request.getParameter("lastName"))) {
+			request.setAttribute("lastName", PropertyReader.getValue("error.require", "Last Name"));
+			pass = false;
+		}
+		if (DataValidator.isNull(request.getParameter("login"))) {
+			request.setAttribute("login", PropertyReader.getValue("error.require", "Login Id"));
+			pass = false;
+		}
+		if (DataValidator.isNull(request.getParameter("dob"))) {
+			request.setAttribute("dob", PropertyReader.getValue("error.require", "Date of Birth"));
+			pass = false;
+		}
+		if (DataValidator.isNull(request.getParameter("mobileNo"))) {
+			request.setAttribute("mobileNo", PropertyReader.getValue("error.require", "Mobile No"));
+			pass = false;
+		}
+		if (DataValidator.isNull(request.getParameter("collegeId"))) {
+			request.setAttribute("collegeId", PropertyReader.getValue("error.require", "College Name"));
+			pass = false;
+		}
+		if (DataValidator.isNull(request.getParameter("courseId"))) {
+			request.setAttribute("courseId", PropertyReader.getValue("error.require", "Course Name"));
+			pass = false;
+		}
+		if (DataValidator.isNull(request.getParameter("subjectId"))) {
+			request.setAttribute("subjectId", PropertyReader.getValue("error.require", "Subject Name"));
+			pass = false;
+		}
+
+		log.debug("FacultyCtl validate End");
+		return pass;
+	}
+
+	/**
+	 * Populates FacultyBean with request parameters.
+	 *
+	 * @param request the {@link HttpServletRequest} object containing client
+	 *                request
+	 * @return a populated {@link FacultyBean}
+	 */
+	protected BaseBean populateBean(HttpServletRequest request) {
+		log.debug("FacultyCtl populateBean started");
+		FacultyBean bean = new FacultyBean();
+
+		bean.setId(DataUtility.getLong(request.getParameter("id")));
+		bean.setFirstName(DataUtility.getString(request.getParameter("firstName")));
+		bean.setLastName(DataUtility.getString(request.getParameter("lastName")));
+		bean.setGender(DataUtility.getString(request.getParameter("gender")));
+		bean.setDob(DataUtility.getDate(request.getParameter("dob")));
+		bean.setMobileNo(DataUtility.getString(request.getParameter("mobileNo")));
+		bean.setEmailId(DataUtility.getString(request.getParameter("email")));
+		bean.setCollegeId(DataUtility.getLong(request.getParameter("collegeId")));
+		bean.setCourseId(DataUtility.getLong(request.getParameter("courseId")));
+		bean.setSubjectId(DataUtility.getLong(request.getParameter("subjectId")));
+
+		populateDTO(bean, request);
+		log.debug("FacultyCtl populateBean End");
+		return bean;
+	}
+
+	/**
+	 * Handles HTTP GET requests. Loads FacultyBean if ID is provided and forwards
+	 * to view.
+	 *
+	 * @param request  the {@link HttpServletRequest} object
+	 * @param response the {@link HttpServletResponse} object
+	 * @throws ServletException if a servlet-specific error occurs
+	 * @throws IOException      if an I/O error occurs
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		log.debug("FacultyCtl doGet Started");
+
+		String op = DataUtility.getString(request.getParameter("operation"));
+		FacultyModel model = new FacultyModel();
+		long id = DataUtility.getLong(request.getParameter("id"));
+
+		if (id > 0) {
+			FacultyBean bean;
+			try {
+				bean = model.findByPK(id);
+				ServletUtility.setBean(bean, request);
+			} catch (ApplicationException e) {
+				log.error(e);
+				ServletUtility.handleException(e, request, response);
+				return;
+			}
+		}
+
+		ServletUtility.forward(getView(), request, response);
+		log.debug("FacultyCtl doGet End");
+	}
+
+	/**
+	 * Handles HTTP POST requests. Performs operations like save, update, reset,
+	 * cancel.
+	 *
+	 * @param request  the {@link HttpServletRequest} object
+	 * @param response the {@link HttpServletResponse} object
+	 * @throws ServletException if a servlet-specific error occurs
+	 * @throws IOException      if an I/O error occurs
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		log.debug("FacultyCtl doPost Started");
+
+		String op = DataUtility.getString(request.getParameter("operation"));
+		FacultyModel model = new FacultyModel();
+		long id = DataUtility.getLong(request.getParameter("id"));
+
+		if (OP_SAVE.equalsIgnoreCase(op) || OP_UPDATE.equalsIgnoreCase(op)) {
+			FacultyBean bean = (FacultyBean) populateBean(request);
+			try {
+				if (id > 0) {
+					model.update(bean);
+					ServletUtility.setBean(bean, request);
+					ServletUtility.setSuccessMessage("Faculty is Successfully Updated", request);
+				} else {
+					long pk = model.add(bean);
+					bean.setId(pk);
+					ServletUtility.setBean(bean, request);
+					ServletUtility.setSuccessMessage("Faculty is Successfully Added", request);
+				}
+			} catch (ApplicationException e) {
+				log.error(e);
+				ServletUtility.handleException(e, request, response);
+				return;
+			} catch (DuplicateRecordException e) {
+				ServletUtility.setBean(bean, request);
+				ServletUtility.setErrorMessage("Faculty with this Login already exists", request);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} else if (OP_CANCEL.equalsIgnoreCase(op)) {
+			ServletUtility.redirect(ORSView.FACULTY_LIST_CTL, request, response);
+			return;
+		} else if (OP_RESET.equalsIgnoreCase(op)) {
+			ServletUtility.redirect(ORSView.FACULTY_CTL, request, response);
+			return;
+		}
+
+		ServletUtility.forward(getView(), request, response);
+		log.debug("FacultyCtl doPost End");
+	}
+
+	/**
+	 * Gets the view for Faculty form.
+	 *
+	 * @return the Faculty view path
+	 */
+	@Override
+	protected String getView() {
+		return ORSView.FACULTY_VIEW;
+	}
+}
