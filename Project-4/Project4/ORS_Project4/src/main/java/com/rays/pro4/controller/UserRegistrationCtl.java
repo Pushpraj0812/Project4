@@ -111,6 +111,7 @@ public class UserRegistrationCtl extends BaseCtl {
 			request.setAttribute("dob", PropertyReader.getValue("error.require", "Date Of Birth"));
 			pass = false;
 		} else if (!DataValidator.isDate(request.getParameter("dob"))) {
+			System.out.println("this");
 			request.setAttribute("dob", PropertyReader.getValue("error.date", "Date of Birth"));
 			pass = false;
 		}

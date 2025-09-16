@@ -21,6 +21,15 @@
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
+<script>
+	$(function() {
+		$("#udate").datepicker({
+			changeMonth : true,
+			changeYear : true,
+			yearRange : '1980:2020',
+		});
+	});
+</script>
 <body>
 
 	<jsp:useBean id="bean" class="com.rays.pro4.Bean.UserBean"
@@ -122,7 +131,7 @@
 						:
 					</th>
 					<td><input type="text" name="dob" id="udate"
-						readonly="readonly" size="26" placeholder="Enter Dob "
+						placeholder="Enter Dob "
 						value="<%=DataUtility.getDateString(bean.getDob())%>"></td>
 					<td style="position: fixed"><font color="red"><%=ServletUtility.getErrorMessage("dob", request)%></font></td>
 				</tr>
